@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    GENERAL
+*/
+
+h1{
+    font-size: 2em;
+}
+
+/*
+    HEADER
+*/
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+.header-down{
+    background-color: aquamarine;
+    padding: 0px 100px;
+}
+
+.header-container{
+    display: flex;
+    padding-top: 30px;
+}
+
+.header-container-left{
+    width: 50%;
+}
+
+.header-container-right{
+    width: 50%;
+}
+
+.header-container-right img{
+    width: 100%;
+}
+
+.button-blu{
+    background-color: rgb(71, 71, 233);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.testo{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.freccia{
+    margin-top: 20px;
+}
+/*
+    MAIN
+*/
+
+main {
+    padding: 0px 130px;
+    margin-top: 50px;
+}
+
+.button{
+    margin-top: 40px;
+}
+/*
+    FOOTER
+*/
