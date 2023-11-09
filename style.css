@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -28,6 +30,18 @@ ul {
 ul li {
     display: inline;
 }
+
+ul li img{
+    margin-right: 30px;
+}
+
+.button-blu-first{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
 
 a {
     text-decoration: none;
@@ -75,6 +89,18 @@ a {
 .freccia{
     margin-top: 30px;
 }
+
+.azienda-container p{
+    margin-top: 20px;
+}
+
+.azienda-container h4{
+    margin-top: 40px;
+}
+
+.team-container-bottom{
+    padding: 20px;
+}
 /*
     MAIN
 */
@@ -106,16 +132,29 @@ main p{
     align-items: end;
     padding: 50px;
 }
+
+.azienda-container{
+    border-style: ridge;
+    padding: 20px;
+}
+
+.type-box{
+    border-style: ridge ridge none ridge;
+    padding: 5px 20px;
+}
+
 .button{
     margin-top: 40px;
 }
 
 .title-team{
     text-align: center;
+    border-style: ridge ridge none ridge;
 }
 .team-container{
     display: flex;
     justify-content: space-between;
+    border-style: ridge;
 }
 
 .team-container-left{
@@ -128,6 +167,20 @@ main p{
 }
 
 .team-container-left p{
+    margin-top: 30px;
+}
+
+.team-container-bottom{
+    align-items: start;
+    width: 60%;
+    
+}
+
+.team-container-bottom h4{
+    margin-top: 15px;
+}
+
+.team-container-bottom p{
     margin-top: 30px;
 }
 
@@ -161,6 +214,10 @@ main p{
     width: 100%;
 }
 
+/*
+    CENTRO ALTO
+*/
+
 .layout{
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +231,13 @@ main p{
     width: 100%;
 }
 
+.down-top > h2{
+    margin-top: 100px;
+}
+/*
+    CENTRO FINE
+*/
+
 .down-center{
     margin-top: 30px;
 }
@@ -184,6 +248,11 @@ main p{
 
 /*
     FOOTER
+*/
+
+
+/*
+    FOOTER ALTO
 */
 
 .footer-top{
@@ -197,6 +266,14 @@ main p{
     justify-items: start;
     width: calc(100vw / 3);
 }
+
+.footer-top-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: end;
+    width: calc(100vw / 3);
+}
+
 
 .box1{
     background-color: #A2D39B;
@@ -250,54 +327,133 @@ main p{
 }
 
 .box3 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
 
 .box4 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
 
 .box5 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
 
 .box6 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
 
 .box7 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
 
 .box8 img{
-    width: 100%;
+    width: 50%;
+    padding: 80px 30px;
 }
-
-
-
-
-
 
 .footer-top-center{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
     width: calc(100vw / 3);
-    padding: 10px;
+    padding: 30px 50px;
 }
 
-.footer-top-right{
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: end;
-    width: calc(100vw / 3);
+
+/*
+    FOOTER CENTRALE
+*/
+
+.footer-center-top-container{
+    padding: 100px 200px;
+}
+
+.footer-center-top-container h2{
+    color: #61082B;
+    font-size: 2em;
+    margin-right: 50px;
+}
+
+.footer-center-top-container > *{
+    display: inline;
+}
+
+.button-white2{
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none
 }
 
 .footer-center-top{
     background-color: #B4D0E7;
 }
 
+/*
+    FOOTER-CENTRALE-BASSO
+*/
+
+.footer-center-bottom-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 300px;
+}
+
+.footer-center-bottom-container h3{
+    margin-bottom: 50px;
+}
+
+.footer-center-bottom-container hr{
+    margin-bottom: 30px;
+}
+
+.footer-center-bottom-container p{
+    margin-bottom: 30px;
+}
+
+/*
+    FOOTER BASSO
+*/
+
+
 .footer-bottom{
     background-color: #000000;
     color: white;
 }
+
+.colonne{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonne .col1 span{
+    display: block;
+    font-size: 0.6em;
+    padding: 5px 0px;
+}
+
+.colonne .col1 h4{
+    margin-bottom: 10px;
+}
+
+.footer-bottom hr{
+    width: 10%;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
+.italiano{
+    color: #000000;
+}
+
+.italiano p{
+    margin-left: 170px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
